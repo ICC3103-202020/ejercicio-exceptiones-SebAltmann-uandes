@@ -24,10 +24,12 @@ namespace Exceptions
         
         static void Main(string[] args)
         {
-            Console.WriteLine("String to Int: ");
-            String a = Console.ReadLine();
-            IntCheckerForString(a);
-            Console.ReadKey();
+            while (true)
+            {
+                Console.WriteLine("String to Int: ");
+                String a = Console.ReadLine();
+                IntCheckerForString(a);
+            }
         }
     }
 }
